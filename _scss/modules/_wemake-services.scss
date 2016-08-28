@@ -33,7 +33,23 @@ $width: 250px;
 
     .wemakeservices-contact {
       text-align: center;
+
+      &.two .show:last-of-type:after {
+        content: '|';
+        position: absolute;
+        display: inline;
+        animation: blink 1s infinite;
+      }
     }
   }
+}
 
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+
+  50% {
+    color: black;
+  }
 }

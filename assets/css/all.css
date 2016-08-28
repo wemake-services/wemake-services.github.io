@@ -39,3 +39,21 @@
     margin: 0 auto; }
     .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact {
       text-align: center; }
+      .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact.two .show:last-of-type:after {
+        content: '|';
+        position: absolute;
+        display: inline;
+        -webkit-animation: blink 1s infinite;
+        animation: blink 1s infinite; }
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: black; } }
+
+@keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: black; } }

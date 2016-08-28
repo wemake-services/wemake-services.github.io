@@ -1,3 +1,5 @@
+// Polyfills:
+require('babel-polyfill');
 
 const typewriter = require('typewriter-js');
 
