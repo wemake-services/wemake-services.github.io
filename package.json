@@ -1,0 +1,44 @@
+{
+  "name": "wemake.services",
+  "version": "1.0.0",
+  "description": "A simple contact landing page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wemake-services/wemake-services.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "scss"
+  ],
+  "author": "sobolevn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wemake-services/wemake-services/issues"
+  },
+  "homepage": "https://github.com/wemake-services/wemake-services#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "typewriter-js": "^2.0.0",
+    "utils-merge": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

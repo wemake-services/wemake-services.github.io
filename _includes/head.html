@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% include favicons.html %}
+
+  <!-- Meta information -->
+  <title>{{ site.title }}</title>
+  <meta name="description"
+        content="{{ site.description }}">
+  <link rel="canonical"
+        href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
+  {% include og.html %}
+
+  <!-- Custom style -->
+  <link rel="stylesheet"
+        href="{{ "/assets/css/all.min.css" | prepend: site.baseurl }}" />
+
+</head>

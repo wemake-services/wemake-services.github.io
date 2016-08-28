@@ -1,0 +1,23 @@
+.wemakeservices__component {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+  .wemakeservices__component .wemakeservices-wrapper {
+    display: table-cell;
+    vertical-align: middle; }
+  .wemakeservices__component .wemakeservices-logo {
+    max-width: 250px;
+    margin: 0 auto; }
+    .wemakeservices__component .wemakeservices-logo img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto; }
+  .wemakeservices__component .wemakeservices-contacts {
+    font-family: 'Inconsolata', monospace;
+    max-width: 250px;
+    margin: 0 auto; }
+    .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact {
+      text-align: left; }
