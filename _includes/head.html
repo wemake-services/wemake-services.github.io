@@ -16,6 +16,6 @@
 
   <!-- Custom style -->
   <link rel="stylesheet"
-        href="{{ "/assets/css/all.min.css" | prepend: site.baseurl }}" />
+        href="{{ "/assets/css/all.min.css" | prepend: site.baseurl }}?bust={{ site.time | date: '%s' }}" />
 
 </head>
