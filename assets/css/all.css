@@ -39,6 +39,9 @@
     margin: 0 auto; }
     .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact {
       text-align: center; }
+      .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:hover, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:active, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:visited {
+        text-decoration: none;
+        color: black; }
       .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact.two .show:last-of-type:after {
         content: '|';
         position: absolute;

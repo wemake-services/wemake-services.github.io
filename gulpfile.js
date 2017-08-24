@@ -45,7 +45,8 @@ function bundle_css(args) {
     .pipe(sass({
       includePaths: [
         './node_modules/typewriter-js'
-    ]}))
+      ]
+    }))
     .pipe(autoprefixer({
       browsers: ['> 1%'],
       cascade: false
