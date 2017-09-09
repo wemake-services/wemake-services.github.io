@@ -17,6 +17,7 @@
   min-width: 0.35em; }
 
 .wemakeservices__component {
+  font-family: 'Inconsolata', monospace;
   display: table;
   position: absolute;
   width: 100%;
@@ -29,25 +30,38 @@
   .wemakeservices__component .wemakeservices-logo {
     max-width: 250px;
     margin: 0 auto; }
+    .wemakeservices__component .wemakeservices-logo a, .wemakeservices__component .wemakeservices-logo a:hover, .wemakeservices__component .wemakeservices-logo a:active, .wemakeservices__component .wemakeservices-logo a:visited {
+      text-decoration: none;
+      color: black; }
     .wemakeservices__component .wemakeservices-logo img {
       display: inline-block;
       max-width: 100%;
       height: auto; }
   .wemakeservices__component .wemakeservices-contacts {
-    font-family: 'Inconsolata', monospace;
     max-width: 250px;
     margin: 0 auto; }
+    .wemakeservices__component .wemakeservices-contacts a, .wemakeservices__component .wemakeservices-contacts a:hover, .wemakeservices__component .wemakeservices-contacts a:active, .wemakeservices__component .wemakeservices-contacts a:visited {
+      text-decoration: none;
+      color: black; }
     .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact {
       text-align: center; }
-      .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:hover, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:active, .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact a:visited {
-        text-decoration: none;
-        color: black; }
       .wemakeservices__component .wemakeservices-contacts .wemakeservices-contact.two .show:last-of-type:after {
         content: '|';
         position: absolute;
         display: inline;
         -webkit-animation: blink 1s infinite;
         animation: blink 1s infinite; }
+  .wemakeservices__component .wemakeservices-navigation {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 0; }
+    .wemakeservices__component .wemakeservices-navigation a, .wemakeservices__component .wemakeservices-navigation a:hover, .wemakeservices__component .wemakeservices-navigation a:active, .wemakeservices__component .wemakeservices-navigation a:visited {
+      text-decoration: none;
+      color: black; }
 
 @-webkit-keyframes blink {
   from, to {
