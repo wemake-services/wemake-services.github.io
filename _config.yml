@@ -18,7 +18,7 @@ email: contact@wemake.services
 description: >
   wemake.services is a software-development company located in Russia, Moscow.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wemake.services" # the base hostname & protocol for your site
+url: "https://wemake.services" # the base hostname & protocol for your site
 
 # Node modules
 exclude:
